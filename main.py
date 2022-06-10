@@ -1,6 +1,6 @@
 from tkinter import *
 root = Tk()
-root.geometry('1000x1000')
+root.geometry('960x760')
 root.configure(background='grey')
 
 potstore = 0
@@ -36,7 +36,6 @@ def bet_set():
     bet6 = bet_setting_6.get()
     bet_display_6.delete(0, END)
     bet_display_6.insert(0, '$' + str(bet6))
-    print(potstore)
     pot = potstore + float(bet1)+float(bet2)+float(bet3)+float(bet4)+float(bet5)+float(bet6)
     pot_display.delete(0, END)
     pot_display.insert(0, 'Pot: $' + str(pot))
