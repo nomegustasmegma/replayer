@@ -4,18 +4,6 @@ root.geometry('960x760')
 root.configure(background='grey')
 
 potstore = 0
-a1=0
-a2=0
-a3=0
-a4=0
-a5=0
-a6=0
-b1=1
-b2=1
-b3=1
-b4=1
-b5=1
-b6=1
 
 def bet_set():
     bet1 = bet_setting_1.get()
