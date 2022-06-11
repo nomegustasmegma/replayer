@@ -307,104 +307,78 @@ global a
 a=0
 global b
 b=0
+
 def clickbu1():
-    global a1
-    if (a1 % 2) == 0:
-        bu1.config(bg=('red'))
+    if bu1.config('bg')[-1]!='red':
+        bu1.config(bg='red')
     else:
-        bu1.config(bg=('SystemButtonFace'))
-    a1=a1+1
-    return None
+        bu1.config(bg='light gray')
 
 def clickbu2():
-    global a2
-    if (a2 % 2) == 0:
-        bu2.config(bg=('red'))
+    if bu2.config('bg')[-1]!='red':
+        bu2.config(bg='red')
     else:
-        bu2.config(bg=('SystemButtonFace'))
-    a2=a2+1
-    return None
+        bu2.config(bg='light gray')
+
 def clickbu3():
-    global a3
-    if (a3 % 2) == 0:
-        bu3.config(bg=('red'))
+    if bu3.config('bg')[-1]!='red':
+        bu3.config(bg='red')
     else:
-        bu3.config(bg=('SystemButtonFace'))
-    a3=a3+1
-    return None
+        bu3.config(bg='light gray')
+
 def clickbu4():
-    global a4
-    if (a4 % 2) == 0:
-        bu4.config(bg=('red'))
+    if bu4.config('bg')[-1]!='red':
+        bu4.config(bg='red')
     else:
-        bu4.config(bg=('SystemButtonFace'))
-    a4=a4+1
-    return None
+        bu4.config(bg='light gray')
+
 def clickbu5():
-    global a5
-    if (a5 % 2) == 0:
-        bu5.config(bg=('red'))
+    if bu5.config('bg')[-1]!='red':
+        bu5.config(bg='red')
     else:
-        bu5.config(bg=('SystemButtonFace'))
-    a5=a5+1
-    return None
+        bu5.config(bg='light gray')
+
 def clickbu6():
-    global a6
-    if (a6 % 2) == 0:
-        bu6.config(bg=('red'))
+    if bu6.config('bg')[-1]!='red':
+        bu6.config(bg='red')
     else:
-        bu6.config(bg=('SystemButtonFace'))
-    a6=a6+1
-    return None
+        bu6.config(bg='light gray')
+
 def clickback1():
-    global b1
-    if (b1 % 2) == 0:
-        back1.config(bg=('orange'))
+    if back1.config('bg')[-1]=='orange':
+        back1.config(bg='light gray')
     else:
-        back1.config(bg=('SystemButtonFace'))
-    b1=b1+1
-    return None
+        back1.config(bg='orange')
 
 def clickback2():
-    global b2
-    if (b2 % 2) == 0:
-        back2.config(bg=('orange'))
+    if back2.config('bg')[-1]=='orange':
+        back2.config(bg='light gray')
     else:
-        back2.config(bg=('SystemButtonFace'))
-    b2=b2+1
-    return None
+        back2.config(bg='orange')
+
 def clickback3():
-    global b3
-    if (b3 % 2) == 0:
-        back3.config(bg=('orange'))
+    if back3.config('bg')[-1]=='orange':
+        back3.config(bg='light gray')
     else:
-        back3.config(bg=('SystemButtonFace'))
-    b3=b3+1
-    return None
+        back3.config(bg='orange')
+
 def clickback4():
-    global b4
-    if (b4 % 2) == 0:
-        back4.config(bg=('orange'))
+    if back4.config('bg')[-1]=='orange':
+        back4.config(bg='light gray')
     else:
-        back4.config(bg=('SystemButtonFace'))
-    b4=b4+1
-    return None
+        back4.config(bg='orange')
+
 def clickback5():
-    global b5
-    if (b5 % 2) == 0:
-        back5.config(bg=('orange'))
+    if back5.config('bg')[-1]=='orange':
+        back5.config(bg='light gray')
     else:
-        back5.config(bg=('SystemButtonFace'))
-    b5=b5+1
-    return None
+        back5.config(bg='orange')
+
 def clickback6():
-    global b6
-    if (b6 % 2) == 0:
-        back6.config(bg=('orange'))
+    if back6.config('bg')[-1]=='orange':
+        back6.config(bg='light gray')
     else:
-        back6.config(bg=('SystemButtonFace'))
-    b6=b6+1
-    return None
+        back6.config(bg='orange')
 
 def set_stacks():
     stacks = float(setstacksentry.get())
